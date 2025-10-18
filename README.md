@@ -1,34 +1,71 @@
-# Responsive Multi-Section Website
+# Responsive Web Design Practice
 
-A four-section responsive web layout built using **HTML** and **SCSS** as part of my ongoing Full Stack journey at **Sheriyans Coding School**.
+A responsive web design practice project built using **HTML**, **CSS**, and **SCSS**.  
+This project focuses on creating a visually appealing, multi-section layout that scales smoothly across devices — from mobile screens to large 4K displays.  
 
-## 📘 Overview
-This project demonstrates how to design and structure layouts that automatically adjust for **mobile**, **laptop**, and **4K** screen sizes using CSS Flexbox and Media Queries.
-
-## 🧩 Features
-- Fully responsive design  
-- Implemented with SCSS for better structure and reusability  
-- Uses clamp(), relative units, and mixins for scalable styling  
-- Clean, minimal, and modern layout pattern  
-
-## 🛠️ Tech Stack
-- **HTML5**
-- **SCSS (CSS Preprocessor)**
-- **Flexbox**
-- **Media Queries**
-
-## 📱 Responsive Breakpoints
-- **Mobile:** below 600px  
-- **Laptop/Desktop:** above 900px  
-- **4K Screens:** wide layout scaling with clamp and max-width
-
-## 🚀 Live Demo
-
-
-## 🙌 Acknowledgements
-Guided by **Ankur Bhaiya**, supervised by **Harsh Bhaiya**, and the amazing team at **Sheriyans Coding School**.
+Throughout this project, I explored how to build flexible layouts, control typography, and manage spacing using responsive CSS techniques.
 
 ---
 
-> **Author:** Yugant  
-> **Week 5 — Full Stack Journey**
+
+
+---
+
+## 🧠 What I Learned
+
+- Core difference between **absolute** and **relative** CSS units (`px`, `%`, `vw`, `vh`, `rem`, `em`)
+- Advanced CSS functions like `clamp()`, `min-width`, and `max-width`
+- How to design responsive layouts **without fixed heights or widths**
+- Using **SCSS mixins** and **nesting** for cleaner, modular code
+- Structuring responsive design for **mobile**, **desktop**, and **4K screens**
+- Creating reusable layout patterns using **flexbox** and **grid**
+- How design consistency improves maintainability
+
+---
+
+## 🎨 Sections Included
+
+1. **Studio Introduction** — Hero section introducing the brand  
+2. **Clients & Projects Stats** — Key performance metrics  
+3. **Our Philosophy** — Agency’s client-first approach  
+4. **Our Vision** — Setting the standard for excellence  
+5. **Our Team** — Team cards with social media icons  
+6. **Join Our Team** — Call-to-action section for new opportunities  
+
+---
+
+## 📂 Project Structure
+
+responsive-web-design-practice/
+├── index.html
+├── style.scss
+├── style.css
+└── assets/
+├── images/
+└── (optional)
+
+yaml
+Copy code
+
+---
+
+## 🧰 Tech Stack
+
+- HTML5  
+- CSS3  
+- SCSS (Sass preprocessor)
+
+---
+
+## 👨‍💻 About the Developer
+
+Developed by **Yugant Singh**  
+Full Stack Developer Trainee at **Sheriyans Coding School**  
+**Trainer:** Ankur Bhaiya  
+**Head:** Harsh Bhaiya and Team
+
+
+
+
+> _This project is part of my **Full Stack Developer Journey** (Week 5 - Responsive Web Design)._  
+> _Guided by #SheriyansCodingSchool’s team and mentors._  
