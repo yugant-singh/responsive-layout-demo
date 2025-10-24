@@ -31,7 +31,7 @@ Throughout this project, I explored how to build flexible layouts, control typog
 4. **Our Vision** — Setting the standard for excellence  
 5. **Our Team** — Team cards with social media icons  
 6. **Join Our Team** — Call-to-action section for new opportunities  
-
+7. *Contact Section-Successfully added
 ---
 
 ## 📂 Project Structure
