@@ -345,6 +345,63 @@ main .view6 .bottom button {
   font-size: 1rem;
   word-spacing: 0.6rem;
 }
+main .view7 {
+  width: 100%;
+  padding: 0.7rem;
+  display: grid;
+  grid-gap: 0.6rem;
+  grid-template-columns: 1fr;
+  grid-template-areas: "contact" "alvy" "pages" "powerdby";
+}
+main .view7 .contact {
+  background-color: #CEBD63;
+  grid-area: contact;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.7rem;
+  padding: 1rem;
+}
+main .view7 .contact .top {
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+main .view7 .contact .top p {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+main .view7 .contact .top h2 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1;
+  opacity: 0.8;
+}
+main .view7 .contact button {
+  width: 90%;
+  padding: 1rem 2rem;
+  background-color: #121212;
+  color: white;
+  border-radius: 0.7rem;
+  word-spacing: 0.8rem;
+}
+main .view7 .alvy {
+  grid-area: alvy;
+  background-color: crimson;
+}
+main .view7 .pages {
+  grid-area: pages;
+  background-color: gray;
+}
+main .view7 .powerdby {
+  grid-area: powerdby;
+  background-color: lightseagreen;
+}
 
 @media (min-width: 900px) {
   main .view1 {
@@ -416,10 +473,33 @@ main .view6 .bottom button {
   main .view6 {
     flex-direction: row;
   }
-  main .view6 .top, main .view6 .bottom {
+  main .view6 .top,
+  main .view6 .bottom {
     width: 50%;
   }
   main .view6 .bottom {
     justify-content: space-between;
+  }
+  main .view7 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "contact contact" "alvy pages" "alvy powerdby";
+    padding: 0rem 0.9rem;
+  }
+  main .view7 .contact {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2.4rem;
+  }
+  main .view7 .contact .top {
+    width: 55%;
+  }
+  main .view7 .contact .top h2 {
+    font-size: 3.3rem;
+  }
+  main .view7 .contact button {
+    width: 13%;
+    word-spacing: 0.3rem;
+    padding: 0.8rem 0rem;
   }
 }/*# sourceMappingURL=style.css.map */
