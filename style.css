@@ -41,6 +41,10 @@ html {
   max-width: 2000px;
 }
 
+.view7 {
+  max-width: 2000px;
+}
+
 main {
   width: 100%;
   display: flex;

@@ -48,6 +48,10 @@ html {
     max-width: 2000px;
 }
 
+.view7{
+    max-width: 2000px;
+}
+
 main {
     width: 100%;
     @include flex-colum(0rem);
@@ -405,6 +409,8 @@ main {
     .view7 {
         width: 100%; 
        padding: 0.7rem;
+      
+    
         display: grid;
         grid-gap: 0.6rem;
         grid-template-columns: 1fr;
