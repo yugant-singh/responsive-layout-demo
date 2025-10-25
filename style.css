@@ -353,7 +353,7 @@ main .view7 {
   width: 100%;
   padding: 0.7rem;
   display: grid;
-  grid-gap: 0.6rem;
+  grid-gap: 0.5rem;
   grid-template-columns: 1fr;
   grid-template-areas: "contact" "alvy" "pages" "powerdby";
 }
@@ -396,7 +396,41 @@ main .view7 .contact button {
 }
 main .view7 .alvy {
   grid-area: alvy;
-  background-color: crimson;
+  background-color: #1E1E1E;
+  width: 100%;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.7rem;
+}
+main .view7 .alvy .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.2rem 2rem;
+  gap: 4rem;
+}
+main .view7 .alvy .top h3 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-weight: 300;
+}
+main .view7 .alvy .top .link {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+}
+main .view7 .alvy .top .link .icon {
+  background-color: rgba(52, 52, 52, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 50%;
 }
 main .view7 .pages {
   grid-area: pages;
@@ -485,7 +519,9 @@ main .view7 .powerdby {
     justify-content: space-between;
   }
   main .view7 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.4fr 1.6fr;
+    grid-auto-rows: minmax(200px, auto);
+    align-items: stretch;
     grid-template-areas: "contact contact" "alvy pages" "alvy powerdby";
     padding: 0rem 0.9rem;
   }
@@ -505,5 +541,9 @@ main .view7 .powerdby {
     width: 13%;
     word-spacing: 0.3rem;
     padding: 0.8rem 0rem;
+  }
+  main .view7 .alvy .top {
+    width: 100%;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */
