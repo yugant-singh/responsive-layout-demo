@@ -1,5 +1,6 @@
 # Responsive Web Design Practice
 
+ ## Live-Demo --> https://first-responsive-practice.netlify.app/
 A responsive web design practice project built using **HTML**, **CSS**, and **SCSS**.  
 This project focuses on creating a visually appealing, multi-section layout that scales smoothly across devices — from mobile screens to large 4K displays.  
 
